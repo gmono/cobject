@@ -5,9 +5,31 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "cobject", "cobject\cobject.shproj", "{56A4E19C-D18B-4DC8-AD6E-0BEE4FD7FB10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		cobject\cobject.projitems*{56a4e19c-d18b-4dc8-ad6e-0bee4fd7fb10}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Debug|x64.ActiveCfg = Debug|x64
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Debug|x64.Build.0 = Debug|x64
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Debug|x86.Build.0 = Debug|Win32
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Release|x64.ActiveCfg = Release|x64
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Release|x64.Build.0 = Release|x64
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Release|x86.ActiveCfg = Release|Win32
+		{FCE76D50-23AB-4D37-8DB9-1393529BEB8F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
